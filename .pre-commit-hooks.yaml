@@ -1,5 +1,5 @@
 -   id: cfn-python-lint1
     name: AWS CloudFormation Linter
-    entry: cfn-lint
+    entry: cfn-lint --template glossary-cloudformation.yml --ignore-checks W
     language: python
-    files: \.(json|yaml|yml)$
+    files: \.(yml)$
