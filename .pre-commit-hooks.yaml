@@ -1,5 +1,5 @@
--   id: cfn-python-lint
+-   id: cfn-python-lint1
     name: AWS CloudFormation Linter
-    entry: cfn-lin
+    entry: cfn-lint --region us-west-2 --ignore-checks W
     language: python
     files: \.(json|yaml|yml)$
